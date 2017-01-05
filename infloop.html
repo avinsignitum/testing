@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>for loop</title>
+
+	<script type="text/javascript">
+
+        window.onload = function start() 
+        {
+            slide();
+        }
+
+        function slide()
+        {
+            var x = 0;
+                for (x=0; x<=100; x++) 
+                {
+                    setTimeout("document.getElementById('test').style.color='red'",2000);
+                    setTimeout("document.getElementById('test').style.color='blue'",4000);
+                    setTimeout("document.getElementById('test').style.color='yellow'",6000);
+                    setTimeout("document.getElementById('test').style.color='green'",8000);
+                }
+        }
+
+    
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+<p id="test" > WITAM SERDECZNIE </p>
+	
+</body>
+
+</html>
